@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branzi Jaya Aluminium - Jasa Pembuatan Kusen Aluminium dan Kaca</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .navbar {
+            background-color: #007bff;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: white !important;
+        }
+        .hero {
+            background: linear-gradient(to right, #007bff, #0056b3), url('https://via.placeholder.com/1920x600?text=Aluminium+dan+Kaca+Konstruksi') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .section {
+            padding: 60px 0;
+        }
+        .section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #007bff;
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            background-color: #fff;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+        }
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .testimonial {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 5px solid #007bff;
+        }
+        .contact-info {
+            text-align: center;
+        }
+        .contact-info i {
+            margin-right: 10px;
+        }
+        .floating-buttons {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        .floating-buttons a {
+            display: block;
+            margin-bottom: 10px;
+            background-color: #25d366;
+            color: white;
+            padding: 15px;
+            border-radius: 50%;
+            text-decoration: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: background-color 0.3s;
+        }
+        .floating-buttons a:nth-child(2) {
+            background-color: #007bff;
+        }
+        .floating-buttons a:hover {
+            background-color: #0056b3;
+        }
+        .logo {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iIzAwN2JmZiIvPjx0ZXh0IHg9IjUwIiB5PSI0MCIgZm9udC1zaXplPSIxMiIgZmlsbD0id2hpdGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJqQTwvdGV4dD48dGV4dCB4PSI1MCIgeT0iNjAiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5SdW1haCBLYWNhPC90ZXh0Pjwvc3ZnPg==') no-repeat center center;
+            background-size: contain;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#beranda">
+                <div class="logo"></div>
+                Branzi Jaya Aluminium
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#beranda">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tentang-kami">Tentang Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#produk-kami">Produk Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyek-kami">Proyek Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hubungi-kami">Hubungi Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://wa.me/6281399660036" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Beranda -->
+    <section id="beranda" class="hero">
+        <div class="container">
+            <h1>Selamat Datang di Branzi Jaya Aluminium</h1>
+            <p>Kami adalah perusahaan yang bergerak di bidang konstruksi aluminium dan kaca. Kami menawarkan produk-produk berkualitas tinggi dengan harga kompetitif.</p>
+            <a href="#produk-kami" class="btn btn-light btn-lg">Lihat Produk Kami</a>
+        </div>
+    </section>
+
+    <!-- Tentang Kami -->
+    <section id="tentang-kami" class="section">
+        <div class="container">
+            <h2>Tentang Kami</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Profil Perusahaan</h4>
+                    <p>Branzi Jaya Aluminium adalah perusahaan yang berdiri pada tahun 2010, spesialis dalam jasa pembuatan kusen aluminium dan kaca di Jabodetabek.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Visi dan Misi</h4>
+                    <p>Menjadi perusahaan konstruksi aluminium dan kaca terkemuka di Indonesia dengan fokus pada kualitas, inovasi, dan kepuasan pelanggan.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Tim Kami</h4>
+                    <p>Kami memiliki tim yang berpengalaman dan profesional di bidang konstruksi aluminium dan kaca, siap melayani kebutuhan Anda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produk Kami -->
+    <section id="produk-kami" class="section bg-light">
+        <div class="container">
+            <h2>Produk Kami</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <i class="fas fa-window-maximize fa-3x mb-3 text-primary"></i>
+                        <h5>Kusen Aluminium</h5>
+                        <p>Kami menawarkan kusen aluminium dengan desain elegan dan berkualitas tinggi.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <i class="fas fa-window-restore fa-3x mb-3 text-primary"></i>
+                        <h5>Jendela Aluminium</h5>
+                        <p>Kami menawarkan jendela aluminium dengan kualitas yang terjamin.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <i class="fas fa-door-open fa-3x mb-3 text-primary"></i>
+                        <h5>Pintu Aluminium</h5>
+                        <p>Kami menawarkan pintu aluminium dengan desain modern dan berkualitas tinggi.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <i class="fas fa-shower fa-3x mb-3 text-primary"></i>
+                        <h5>Kaca Shower Aluminium</h5>
+                        <p>Kami menawarkan kaca shower aluminium dengan kualitas yang terjamin.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <i class="fas fa-columns fa-3x mb-3 text-primary"></i>
+                        <h5>Partisi Aluminium</h5>
+                        <p>Kami menawarkan partisi aluminium dengan desain elegan dan berkualitas tinggi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyek Kami -->
+    <section id="proyek-kami" class="section">
+        <div class="container">
+            <h2>Proyek Kami</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Galeri Proyek</h4>
+                    <div class="gallery">
+                        <img src="https://via.placeholder.com/400x200?text=Kusen+Aluminium+Proyek+1" alt="Proyek 1">
+                        <img src="https://via.placeholder.com/400x200?text=Jendela+Aluminium+Proyek+2" alt="Proyek 2">
+                        <img src="https://via.placeholder.com/400x200?text=Pintu+Aluminium+Proyek+3" alt="Proyek 3">
+                        <img src="https://via.placeholder.com/400x200?text=Kaca+Shower+Proyek+4" alt="Proyek 4">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4>Testimoni Pelanggan</h4>
+                    <div class="testimonial">
+                        <p>"Pekerjaan sangat rapi dan tepat waktu. Sangat puas dengan hasilnya!" - Pelanggan A</p>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Kualitas aluminiumnya luar biasa. Rekomendasi untuk yang butuh kusen!" - Pelanggan B</p>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Tim profesional dan harga terjangkau. Akan pesan lagi!" - Pelanggan C</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hubungi Kami -->
+    <section id="hubungi-kami" class="section bg-light">
+        <div class="container">
+            <h2>Hubungi Kami</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i> Alamat: Jl. Duri Kepa Raya, Kedoya, Kebun Jeruk, Jakarta Barat</p>
+                <p><i class="fas fa-phone"></i> Telepon: 0813 9966 0036</p>
+                <p><i class="fas fa-envelope"></i> Email: branzialuminium@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/6281399660036" target="_blank" title="Hubungi via WhatsApp"><i class="fab fa-whatsapp fa-2x"></i></a>
+        <a href="tel:081399660036" title="Hubungi via Telepon"><i class="fas fa-phone fa-2x"></i></a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Branzi Jaya Aluminium. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Smooth scrolling for navbar links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
